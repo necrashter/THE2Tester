@@ -6,7 +6,7 @@ class ExamplesInPDF(unittest.TestCase):
     """This is a test case containing the example figures and their provided outputs in the PDF"""
     def assertTHE2(self,r1,r2,answer):
         """Takes the parameters of is_firmus function (r1,r2) and compares them to the expected result (answer)
-        In case of "ADDENDUM", the order of coordinates does not matter."""
+        In case of "ADDENDUM", the alternative representations of the same rectangle will be considered as equal."""
         out = is_firmus(r1,r2)
         self.assertEqual(answer[0], out[0])
         if answer[0] == "ADDENDUM":
