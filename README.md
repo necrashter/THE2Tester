@@ -1,7 +1,7 @@
 # THE2Tester
 Tester for Take-Home Exam 2 (2018)
 
-##### !!! THIS PROJECT IS COMPLETELY UNOFFICAL !!!
+##### !!! THIS PROJECT IS COMPLETELY UNOFFICIAL !!!
 
 ## Usage:
 ### Testing with the Examples in the PDF
