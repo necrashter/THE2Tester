@@ -20,6 +20,7 @@ tester.py is a script which takes the file name of the test data (either as a co
 
 Currently approved dataset(s):
 * testdata1 - Approved by 3 people. Contains 200000 test cases.
+Each dataset has one test case per line. Every test case contains 3 lists, seperated by ";" (seperator is defined as a global in tester.py which can be changed easily.). First two lists are parameters for is_firmus function and the last list is the expected output.
 
 Use this command to test your code with testdata1: (again, **your the2.py file must be in the same directory**) 
 ```
