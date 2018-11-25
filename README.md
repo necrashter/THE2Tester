@@ -19,7 +19,7 @@ chmod +x test_examplesInPDF.py
 tester.py is a script which takes the file name of the test data (either as a command line argument or using direct input) and executes all test cases in dataset, reporting failures and statistics.
 
 Currently approved dataset(s):
-* testdata1 - Approved by 6 people. Contains 200000 test cases.
+* testdata1 - Approved by 7 people. Contains 200000 test cases.
 
 Each dataset has one test case per line. Every test case contains 3 lists, seperated by ";" (seperator is defined as a global in tester.py which can be changed easily.). First two lists are parameters for is_firmus function and the last list is the expected output.
 
