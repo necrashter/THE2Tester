@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import unittest, sys
+from time import clock
 from the2 import is_firmus
 
 SEPERATOR = ';'
@@ -29,6 +30,7 @@ def test(filename):
     print "File '%s' has been read successfully. Testing starts..."%filename
     testno = 0
     fails = 0
+    startTime = clock()
     for l in lines:
         testCase=[eval(a) for a in l.split(SEPERATOR)]
         out = isWrong(*testCase)
@@ -41,10 +43,12 @@ def test(filename):
             print "Obtained: %s\n"%str(out)
             fails += 1
         testno+=1
+    elapsedTime = clock() - startTime
     print
     print "====== DONE ======"
     print "%i tests done."%(testno)
     print "%i failures."%fails
+    print "%s seconds elapsed."%elapsedTime
     
 if __name__ == '__main__':
     if len(sys.argv) > 1:

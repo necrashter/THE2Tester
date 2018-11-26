@@ -23,6 +23,10 @@ Currently approved dataset(s):
   * Completely seperate blocks
   * Firmus situations
   * Addendum situations
+* test_intersects - Approved by 2 people. Contains 100000 test cases which are mainly intersection situations such as:
+  * Intersecting in the middle (like a plus sign or T)
+  * Intersecting at the corners
+  * One of the blocks is completely inside the other one
 
 Each dataset has one test case per line. Every test case contains 3 lists, seperated by ";" (seperator is defined as a global in tester.py which can be changed easily.). First two lists are parameters for is_firmus function and the last list is the expected output.
 
@@ -35,7 +39,4 @@ or
 ./tester.py testdata1 #you first need to chmod +x tester.py 
 ```
 If you tested a dataset and passed all the test cases, inform me and I will increase the number of people who approved that dataset.
-Otherwise check your code and if there is a problem with the tester/testdata, open an issue. 
-
-### Uncofirmed Directory
-Newly generated datasets will be added to this directory and stay there until more people approve them.
+Otherwise check your code and if there is a problem with the tester/testdata, open an issue or discuss at COW newsgroup/Whatsapp. 
