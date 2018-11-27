@@ -28,7 +28,7 @@ Currently approved dataset(s):
   * Intersecting at the corners
   * One of the blocks is completely inside the other one
 * test_epsilon - Approved by 3 people. Contains 150000 test cases which test your code's ability to handle epsilon comparison. 
-* sondata - Approved by 3 people. Contains 120000 test cases. Thanks to @sirkatee for submitting.
+* sondata - Approved by 3 people. Contains 120000 test cases. Thanks to [sirkatee](https://github.com/sirkatee) for submitting.
 
 Each dataset has one test case per line. Every test case contains 3 lists, seperated by ";" (seperator is defined as a global in tester.py which can be changed easily.). First two lists are parameters for is_firmus function and the last list is the expected output.
 
