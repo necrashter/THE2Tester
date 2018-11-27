@@ -19,7 +19,7 @@ chmod +x test_examplesInPDF.py
 tester.py is a script which takes the file name of the test data (either as a command line argument or using direct input) and executes all test cases in dataset, reporting failures and statistics.
 
 Currently approved dataset(s):
-* testdata1 - Approved by 12 people. Contains 200000 test cases, which include:
+* testdata1 - Approved by 13 people. Contains 200000 test cases, which include:
   * Completely seperate blocks
   * Firmus situations
   * Addendum situations
@@ -27,7 +27,7 @@ Currently approved dataset(s):
   * Intersecting in the middle (like a plus sign or T)
   * Intersecting at the corners
   * One of the blocks is completely inside the other one
-* test_epsilon - Approved by 3 people. Contains 150000 test cases which test your code's ability to handle epsilon comparison. 
+* test_epsilon - Approved by 3 people. Contains 150000 test cases which test your code's ability to handle epsilon comparison.
 * sondata - Approved by 3 people. Contains 120000 test cases. Thanks to [sirkatee](https://github.com/sirkatee) for submitting.
 
 Each dataset has one test case per line. Every test case contains 3 lists, seperated by ";" (seperator is defined as a global in tester.py which can be changed easily.). First two lists are parameters for is_firmus function and the last list is the expected output.
