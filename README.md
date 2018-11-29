@@ -23,7 +23,7 @@ Currently approved dataset(s):
   * Completely seperate blocks
   * Firmus situations
   * Addendum situations
-* test_intersects - Approved by 6 people. Contains 100000 test cases which are mainly intersection situations such as:
+* test_intersects - Approved by 7 people. Contains 100000 test cases which are mainly intersection situations such as:
   * Intersecting in the middle (like a plus sign or T)
   * Intersecting at the corners
   * One of the blocks is completely inside the other one
